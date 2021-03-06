@@ -1,0 +1,33 @@
+{
+  "name": "dynamic-react-django-site",
+  "version": "1.0.0",
+  "description": "This repository contains a very basic setup demonstrating how to use Webpack's dev server alongside Django's to make development life easy by getting live reloading to work again. You'll need to keep two terminals open running the two dev servers concurrently.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "author": "Kinyua Munene",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
